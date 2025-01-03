@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 st.set_page_config(page_title="E-Commerce Dashboard", page_icon="📊", layout="wide")
 
 load_dotenv()
-os.environ['GOOGLE_API_KEY'] = os.getenv('GOOGLE_API_KEY')
+os.environ['GOOGLE_API_KEY'] = st.secrets['GOOGLE_API_KEY']
 
 # Load the dataset
 @st.cache_data
