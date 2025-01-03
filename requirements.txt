@@ -9,3 +9,4 @@ langchainhub
 rapidocr-onnxruntime
 pandas
 seaborn
+tabulate
